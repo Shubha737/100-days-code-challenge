@@ -1,0 +1,13 @@
+# Day 1 code 2
+# python program to add two given numbers
+
+number_1 = 10
+number_2 = 15
+
+#adding two no.
+
+sum = number_1 + number_2
+print(sum)
+
+# second way to print result
+print('Sum of {} and {} is {}'.format(number_1,number_2,sum))
