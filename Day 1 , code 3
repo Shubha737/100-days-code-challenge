@@ -1,0 +1,11 @@
+# Day 1 code 3
+# python program to take two numbers input from user and add them
+
+number_1 = input("Please enter the first value")
+number_2 = input("Please enter the second value")
+
+sum = float(number_1) + float(number_2)
+
+print(sum)
+
+print('Addition of {} and {} is {} '. format (number_1, number_2, sum))
