@@ -1,0 +1,9 @@
+# Day 2 code 1
+# python program to calculate Simple Interest of given principle,rate and time
+
+Principle = 1500000
+Rate = 5
+Time = 8
+
+Simple_Interest = (Principle * Rate * Time)/100
+print(Simple_Interest)
