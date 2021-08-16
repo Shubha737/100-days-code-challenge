@@ -1,0 +1,10 @@
+# Day 2 code 2
+# python program to calculate Simple Interest with taking necessary inputs from the user
+
+Principle = float(input ("Enter the principal value"))
+Rate = float(input ("Enter the rate of interest"))
+Time = float(input ("Period of time"))
+
+
+Simple_Interest = (Principle * Rate * Time)/100
+print(Simple_Interest)
