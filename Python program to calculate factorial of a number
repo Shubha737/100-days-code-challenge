@@ -1,0 +1,13 @@
+# Day 3 code 3
+
+
+Number = int(input("Please enter the number:"))
+fact =1
+
+if Number == 0:
+    print('The factorial is 1')
+else:
+ while Number > 1:
+    fact = fact * Number
+    Number = Number -1
+print(fact)
