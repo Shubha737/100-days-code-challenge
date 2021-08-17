@@ -1,0 +1,11 @@
+# Day 3 code 4
+
+Principal =float(input("Enter principal amount:"))
+Rate = float(input("Enter rate of interest:"))
+Time = float(input("Enter time of span :"))
+
+Amount = Principal * ((1+ (Rate/100))** Time)
+CI = Amount - Principal
+
+print(Amount)
+print(CI)
