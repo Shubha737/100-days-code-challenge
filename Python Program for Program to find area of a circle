@@ -1,0 +1,5 @@
+# Day 3 code 6
+
+Radius = int(input("Enter the radius in cm :"))
+Area_circle = (3.14159)*(Radius*Radius)
+print (Area_circle)
