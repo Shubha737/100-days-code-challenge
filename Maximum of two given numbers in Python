@@ -1,0 +1,10 @@
+# Day 3 code 1
+# python program to find maximum of given two no.
+
+Number_1 = 12
+Number_2 = 20
+
+if Number_1 >= Number_2 :
+    print('The maximum of {} and {} is {} '.format (Number_1,Number_2,Number_1))
+else :
+    print ('The maximum of {} and {} is {} '.format (Number_1,Number_2,Number_2))
