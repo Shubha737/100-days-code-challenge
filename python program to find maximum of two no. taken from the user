@@ -1,0 +1,9 @@
+# Day 3 code 2 
+
+Number_1 = input("Please enter the first value :")
+Number_2 = input("Please enter the second value :")
+
+if Number_1 >= Number_2 :
+    print('The maximum of {} and {} is {} '.format (Number_1,Number_2,Number_1))
+else :
+    print ('The maximum of {} and {} is {} '.format (Number_1,Number_2,Number_2))
