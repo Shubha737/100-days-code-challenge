@@ -1,0 +1,12 @@
+# Day 4 code 4
+
+num_1 = int(input("Please enter the first value :"))
+num_2 = int(input("Please enter the second value :"))
+num_3 = int(input("Please enter the sequence length :"))
+sum = 0
+
+for num in range(num_3-2):
+    sum = num_1+ num_2
+    num_1 = num_2
+    num_2 = sum
+print(sum)
