@@ -1,0 +1,11 @@
+# Day 5 code 1
+
+num_1 = int(input("Please enter the value of n:"))
+num_4 = num_1
+sum = 0
+
+for i in range (2):
+ num_2 = sum+ num_1
+ num_1 = (num_1*10)+num_4
+ num_3 = num_1 +num_2 + num_4
+print(num_3)
