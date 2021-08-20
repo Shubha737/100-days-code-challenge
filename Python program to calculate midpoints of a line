@@ -1,0 +1,10 @@
+# Day 6 code 2
+
+num_1 = float(input("Please enter the  x1 co-ordinate :"))
+num_2 = float(input("Please enter the  y1 co-ordinate:"))
+num_3 = float(input("Please enter the  x2 co-ordinate:"))
+num_4 = float(input("Please enter the  y2 co-ordinate:"))
+
+mid_point = ( num_1 + num_3)/2 , (num_2+ num_4)/2
+
+print (mid_point)
