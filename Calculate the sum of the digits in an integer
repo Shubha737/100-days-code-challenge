@@ -1,0 +1,10 @@
+# Day 6 code 1
+
+num = int(input("Please enter the number :"))
+sum = 0
+
+while num !=0 :
+   num_1 = num % 10
+   sum = sum +num_1
+   num = num//10
+print(sum)
