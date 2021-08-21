@@ -1,0 +1,8 @@
+# Day 7 code 2
+
+Name = str(input("Please enter your name :"))
+Mass = float(input("Input your body weight in Kilogram :"))
+Height = float(input("Input your height in feet :"))
+
+BMI = Mass/(Height * Height)
+print ('The Body mass index of Mr.{} is {}'.format(Name,BMI))
