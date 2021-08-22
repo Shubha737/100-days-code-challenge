@@ -1,0 +1,20 @@
+# Day 8 code 4
+
+num_list = []
+even_list = []
+
+num_element = int(input("Please enter the number of elements in the list :"))
+
+for num in range(num_element) :
+
+    element = int(input("Enter your numbers :"))
+    num_list.append(element)
+
+print( num_list)
+
+for numm in num_list :
+    num2 = numm % 2
+    if (num2 == 0):
+        even_list.append(numm)
+
+print(even_list)
