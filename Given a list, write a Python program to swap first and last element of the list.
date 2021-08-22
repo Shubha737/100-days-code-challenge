@@ -1,0 +1,7 @@
+# Day 8 code 1
+
+tokyo_champs = ['Neeraj Chopra', 'Ravi Dahiya' , 'Mirabai Chanu' , 'P Sindhu','L Borgohain', 'B Punia', 'MEN Hockey']
+
+tokyo_champs[0],tokyo_champs[-1] = tokyo_champs[-1],tokyo_champs[0]
+
+print(tokyo_champs)
