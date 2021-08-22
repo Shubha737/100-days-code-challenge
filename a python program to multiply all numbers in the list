@@ -1,0 +1,10 @@
+# Day 8 code 2 
+
+Prime = [2,3,5,7,11,13,17,19,23,29,31]
+
+multi =1
+
+for num in Prime :
+    multi = multi * num
+
+print(multi)
