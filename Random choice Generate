@@ -1,0 +1,7 @@
+# Day 29 code 1
+# Random choice Generate
+import random
+
+Courses = ['Math','Science','General Knowledge','Comp Science']
+random_course = random.choice(Courses)
+print(random_course)
