@@ -1,0 +1,10 @@
+Day 30 code 1
+
+def student_info(*args,**kwargs):
+     print(args)
+     print(kwargs)
+
+child = ['Shubham','shainy','shalini']
+child_dict = {'Name':'John','age':5}
+
+student_info(*child,**child_dict)
