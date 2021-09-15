@@ -1,0 +1,3 @@
+f = open('read.txt')
+print(f.name)
+f.close()
