@@ -1,0 +1,16 @@
+# Hackerrank # 09-16-21
+# Problem_1
+# https://www.hackerrank.com/challenges/py-if-else/problem
+
+n = int(input("Enter the integer :"))
+
+if(n%2!=0) :
+    print('Weird')
+else :
+    if (n>=2 and n<=5):
+        print ('Not Weird')
+    elif (n>=6 and n<=20) :
+        print ('Weird')
+    else :
+        print ('Not Weird')
+        

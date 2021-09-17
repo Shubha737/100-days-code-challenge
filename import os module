@@ -1,0 +1,15 @@
+# Day 31 
+# All about import os module
+
+import os
+from datetime import datetime
+print(os.getcwd())
+os.mkdir('shiva/parwati')
+print(os.listdir())
+os.makedirs('Laxmi/Narayan')
+os.removedirs('shiva/parwati')
+os.removedirs('Laxmi/Narayan')
+mod_time =os.stat('Shiva/parwati').st_mtime
+print(datetime.fromtimestamp(mod_time))
+print(os.environ.get('HOME'))
+
