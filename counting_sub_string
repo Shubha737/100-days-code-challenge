@@ -1,0 +1,4 @@
+def count_substring(string, sub_string):
+    return string.count(sub_string)
+
+char_count = count_substring('Hello','l')
